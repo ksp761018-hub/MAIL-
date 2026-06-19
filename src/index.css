@@ -1,0 +1,31 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css");
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Pretendard", -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  --color-brand-primary: #3638b3;
+  --color-brand-secondary: #5759cc;
+  --color-brand-dark: #1b1c54;
+  --color-accent-bg: #edf1f9;
+  --color-soft-bg: #f4f6fc;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #edf1f9;
+  color: #1e2229;
+}
+
+/* Custom soft shadow matching the premium UI in the design */
+.premium-shadow {
+  box-shadow: 0 10px 30px -10px rgba(54, 56, 179, 0.08), 0 1px 3px rgba(0, 0, 0, 0.02);
+}
+
+.premium-card-shadow {
+  box-shadow: 0 15px 35px -12px rgba(27, 28, 84, 0.06), 0 4px 12px -2px rgba(27, 28, 84, 0.02);
+}
+
+.device-shadow {
+  box-shadow: 0 25px 60px -15px rgba(27, 28, 84, 0.15);
+}
+

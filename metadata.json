@@ -1,0 +1,6 @@
+{
+  "name": "문자/메일작성도우미",
+  "description": "공공기관 및 고용센터 실무용 구인업체·구직자 발송 안내문 템플릿 기반 스마트 문자/메일 작성 및 AI 교정 도우미",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
